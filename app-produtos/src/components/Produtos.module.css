@@ -1,0 +1,29 @@
+.produtos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.produtosItem{
+  flex-basis: 33%;
+  margin-bottom: 70px;
+}
+
+.nome{
+  margin: 0.5rem 0;
+}
+
+a {
+  text-decoration: none;
+  color:#262626;
+}
+img {
+  max-width: 70%;
+  padding: 5px;
+  background: #8C8C8C;
+}
+
+img:hover{
+  background: #262626;
+}
