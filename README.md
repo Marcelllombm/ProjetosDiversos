@@ -12,7 +12,7 @@
 
 ### < Technologies />
 
-This project was developed in origami with the following technologies:
+:arrow_right: This project was developed in origami with the following technologies:
 
 - [Reactjs](https://reactjs.org/)
 - [React-router-dom](https://www.npmjs.com/package/react-router-dom)
@@ -22,7 +22,7 @@ This project was developed in origami with the following technologies:
 <a id="how-to-use-app-produtos"></a>
 
 ### < How To Use />
-To clone and run this application, you will need Git, Node.js v14.15 or higher installed on your computer. From your command line:
+:hash: To clone and run this application, you will need Git, Node.js v14.15 or higher installed on your computer. From your command line:
 
 ```
  Clone this repository
@@ -42,11 +42,11 @@ $ npm start
 
 ### < My Purpose />
 
-The purpose of this project is to practice React-router-dom
+:dart: The purpose of this project is to practice React-router-dom
 
 ========================= ## =========================
 <a id="challenge-i-faced-app-produtos"></a>
 
 ### < Challenge I Faced />
-As the tutorial was a bit old, it was necessary to search the documentation for the new way to use React-router-dom
+:cyclone: As the tutorial was a bit old, it was necessary to search the documentation for the new way to use React-router-dom
 <hr>
