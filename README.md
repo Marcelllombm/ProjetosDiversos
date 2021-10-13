@@ -25,8 +25,11 @@
 :hash: To clone and run this application, you will need Git, Node.js v14.15 or higher installed on your computer. From your command line:
 
 ```
- Clone this repository
+# Clone this repository
 $ git clone https://github.com/Marcelllombm/projetosDiversos
+
+# Enter the branch app-produtos
+$ git checkout app-produtos
 
 # Go into the repository
 $ cd app-produtos
