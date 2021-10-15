@@ -1,5 +1,59 @@
 # projetosDiversos
 :mortar_board: Projetos Diversos.
+
+# Pizza website
+[Technologies](#Technologies-pizza-website)  |  [How To Use](#how-to-use-pizza-website)  |  [My Purpose](#my-purpose-pizza-website) | [Challenge I Faced ](#challenge-i-faced-pizza-websites)
+</br></br>
+<img src='img/pizza-website.gif' alt='pizza-website'>
+
+========================= ## =========================
+<a id="Technologies-pizza-website"></a>
+
+### < Technologies />
+
+:arrow_right: This project was developed by youtube Brian Design with the following technologies:
+
+- [Reactjs](https://reactjs.org/)
+- [Styled-components](https://www.npmjs.com/package/styled-components)
+- [React-router](https://www.npmjs.com/package/react-router)
+- [React-icons](https://www.npmjs.com/package/react-icons)
+
+
+========================= ## =========================
+<a id="how-to-use-pizza-website"></a>
+
+### < How To Use />
+:hash: To clone and run this application, you will need Git, Node.js v14.15 or higher installed on your computer. From your command line:
+
+```
+# Clone this repository
+$ git clone https://github.com/Marcelllombm/projetosDiversos
+
+# Enter the branch app-produtos
+$ git checkout pizza-website
+
+# Go into the repository
+$ cd pizza-website
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
+```
+========================= ## =========================
+<a id="my-purpose-pizza-website"></a>
+
+### < My Purpose />
+
+:dart: The objectives of this project are: First, to practice the stylized components; Second, folder structure.
+
+========================= ## =========================
+<a id="challenge-i-faced-pizza-website"></a>
+
+### < Challenge I Faced />
+:cyclone: Leave the traditional concept of CSS. Learn a new modern CSS.
+
 <hr>
 
 # App-produtos
