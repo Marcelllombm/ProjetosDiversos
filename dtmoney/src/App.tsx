@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { NewTransactionModal } from "./components/NewTransactionModal";
 import { Migera } from "./services/migera";
 import { GlobalStyle } from "./styles/global";
+import { TransactionsProvider } from "./TransactionsContext";
 
 export function App() {
   const  [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
@@ -16,15 +17,15 @@ export function App() {
       setIsNewTransactionModalOpen(false);    
   }
   return (
-    <>
+    <TransactionsProvider>
       <GlobalStyle/>
       <Migera />
       <Header onOpenNewTransactionModal={handleOpenNewTransactionModal}/>  
       <Dashboard />
-    <NewTransactionModal 
+      <NewTransactionModal 
       isOpen={ isNewTransactionModalOpen } 
       onRequestClose={handleCloseNewTransactionModal}
-    />
-    </>
+      />
+    </TransactionsProvider>
   )
 }
